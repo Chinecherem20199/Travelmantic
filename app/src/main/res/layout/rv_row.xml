@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/rv_image"
+            android:layout_width="70dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher_background" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_row_title"
+                android:text="@string/title_rv"
+                android:textSize="24sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_rv"
+                android:layout_marginTop="7dp"
+                android:id="@+id/rv_description"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:id="@+id/rv_price"
+                android:text="@string/price_rv"
+                android:layout_marginTop="7dp"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"
+                android:layout_marginStart="200dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

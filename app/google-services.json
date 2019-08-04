@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "668758200370",
+    "firebase_url": "https://travelmantics-f2e95.firebaseio.com",
+    "project_id": "travelmantics-f2e95",
+    "storage_bucket": "travelmantics-f2e95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668758200370:android:e72a40fc495e4b7f",
+        "android_client_info": {
+          "package_name": "nigeriandailies.com.ng.travelmantics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668758200370-sbp5ms89lt41node49qg9ddiu20ns26b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTy0weyMIaBVtjFCDlQJAeMG55ys-GZbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668758200370-sbp5ms89lt41node49qg9ddiu20ns26b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
